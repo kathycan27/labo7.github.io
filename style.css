@@ -1,0 +1,64 @@
+.grid-container {
+  margin-left: 5%;
+    display: grid;
+    width: 80%;
+    grid-template-rows: 100px 100px 100px 100px ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "area1 area1 area1 area2 area5"
+    "area1 area1 area1 area2 area5"
+    "area3 area4 area4 area4 area5"
+    "area3 area4 area4 area4 area5";
+     text-align: left;
+  }
+  .datos{
+    text-align: left;
+    padding-left: 10%;
+    align-items: center;
+    margin-top: -6%;
+  }
+  .grid-item1 {
+    background: rgb(168, 102, 243);
+    grid-area: area1;
+    border-radius: 20px;
+    border-style: 20px;
+    font-size: 60%;
+    color: white;
+  }
+  
+  .grid-item2 {
+    background: rgb(71, 70, 70);
+    text-align: center;
+    grid-area: area2;
+    border-radius: 20px;   font-size: 60%;
+  }
+  
+  .grid-item3 {   font-size: 60%;
+    background: rgb(228, 238, 228);
+    text-align: center;
+    grid-area: area3;
+    border-radius: 20px;
+  }
+  .grid-item4 {
+    background: rgb(17, 9, 53);
+    text-align: center;
+    grid-area: area4;
+    border-radius: 20px;   font-size: 60%;
+  }
+  .grid-item5 {
+    background: rgb(233, 210, 210);
+    text-align: center;
+    grid-area: area5;
+    border-radius: 20px;   font-size: 60%;
+  }
+  img{
+    border-radius: 100%;
+   
+      
+    
+
+  }
+  h3{
+    font-size: 50%;
+  }
